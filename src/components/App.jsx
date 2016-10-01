@@ -1,3 +1,8 @@
+import React from 'react'
+import Nav from './Nav.jsx'
+import VideoPlayer from './VideoPlayer.jsx'
+import VideoList from './VideoList.jsx'
+import exampleVideoData from '../data/exampleVideoData.js'
 
 var App = class extends React.Component {
   constructor(props) {
@@ -57,5 +62,6 @@ var App = class extends React.Component {
 };
 // In the ES6 spec, files are "modules" and do not share a top-level scope
 // `var` declarations will only exist globally where explicitly defined
-window.App = App;
+
+export default App;
 

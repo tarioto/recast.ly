@@ -162,3 +162,5 @@ window.exampleVideoData = [{
     liveBroadcastContent: 'none'
   }
 }];
+
+export default exampleVideoData;

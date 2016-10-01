@@ -1,3 +1,5 @@
+import YOUTUBE_API_KEY from '../config/youtube.js'
+
 var searchYouTube = (options, callback) => {
 
   var url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=${options.max}&q=${options.query}&type=video&videoEmbeddable=true&key=${YOUTUBE_API_KEY}`;
@@ -14,4 +16,4 @@ var searchYouTube = (options, callback) => {
   });
 };
 
-window.searchYouTube = searchYouTube;
+export default searchYouTube;

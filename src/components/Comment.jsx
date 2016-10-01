@@ -1,3 +1,4 @@
+import React from 'react'
 var Comment = (props) => (
   <div className="video-list-entry comment">
       <div className="media-left media-middle">
@@ -14,4 +15,4 @@ Comment.propTypes = {
   comment: React.PropTypes.object.isRequired
 };
 
-window.Comment = Comment;
+export default Comment;

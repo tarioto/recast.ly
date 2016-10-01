@@ -1,3 +1,5 @@
+import React from 'react'
+import Comment from './Comment.jsx'
 var CommentList = (props) => (
   <div className='comment comment-list'>
     <h2>Comments</h2>
@@ -9,4 +11,4 @@ CommentList.propTypes = {
   comments: React.PropTypes.array.isRequired
 };
 
-window.CommentList = CommentList;
+export default CommentList;
