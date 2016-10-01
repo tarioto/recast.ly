@@ -18,7 +18,7 @@ var App = class extends React.Component {
     };
   }
 
-  componentDidMount () {
+  componentWillMount () {
     this.props.searchYouTube({query: 'gummy bears', max: 10, key: 'no'}, this.setVideoState.bind(this));
   }
 
