@@ -70,3 +70,11 @@ body {
   font-size: 12px;
   color: #999;
 }
+
+.comment {
+  background-color: white;
+}
+
+.comment-list {
+  margin-top:10px;
+}
